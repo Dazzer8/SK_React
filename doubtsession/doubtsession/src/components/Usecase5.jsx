@@ -4,7 +4,7 @@ function UseCase5() {
     const [users,setUsers] = useState([
         {id:1, name:"Alex", email:"alex@gmail.com"},
         {id:2, name:"Bob", email:"bob@gmail.com"},
-        {id:3, name:Tony, email:"Tony@gmail.com"},
+        {id:3, name:"Tony", email:"Tony@gmail.com"},
     ]);
     const addData =(id,name,email) => {
         setUsers([...users,id,name,email]);
