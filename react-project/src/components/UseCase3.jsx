@@ -1,10 +1,10 @@
-import { useState } from "react";
-
+import{useState} from "react";
 function UseCase3() {
-    const [flag,setFlag]=useState(false);
-    const hindleClick =()=>{
+    const[flag, setFlag] = useState(false);
+    const hindleClick = () => {
         setFlag(!flag);
     }
+
     return ( 
         <div className="p-2 mt-2" style={{border: '2px solid red'}}>
             {flag? <p>My Data</p> : ''}

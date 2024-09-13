@@ -1,16 +1,17 @@
 import { useState } from "react";
-function Usecase4() {
-    const [user, setUser] = useState({
+
+function UseCase4() {
+    const[user, setUser] = useState ({
         name:"Alex",
         email:"alex@gmail.com",
         country:"India"
     });
-    const change=(name,email,countery) => {
-        setUser({name,email,countery});
+    const change = (name,email,country) => {
+        setUser({name,email,country});
     }
     return ( 
         <div>
-            <h3>Welcome {user.name}</h3>
+            <h3>Welcome {user.name} </h3>
             <ul>
                 <li>{user.email}</li>
                 <li>{user.country}</li>
@@ -20,4 +21,4 @@ function Usecase4() {
      );
 }
 
-export default Usecase4;
+export default UseCase4;
