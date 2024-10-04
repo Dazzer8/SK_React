@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "alex",
+      "email": "alex@gmail.com"
+    },
+    {
+      "id": "1f9c",
+      "username": "rickbro",
+      "password": "12345",
+      "email": "a@b.com",
+      "phone": "489459839"
+    }
+  ],
+  "products": [
+    {
+      "id": "P001",
+      "name": "Laptop",
+      "price": 98789,
+      "category": "electronics"
+    },
+    {
+      "id": "P002",
+      "name": "I phone 16 Pro",
+      "price": "199999",
+      "category": "electronics"
+    },
+    {
+      "id": "4742",
+      "username": "rickbro",
+      "password": "12345",
+      "email": "a@b.com",
+      "phone": "489459839"
+    },
+    {
+      "id": "69",
+      "name": "Apple",
+      "price": "4088",
+      "category": "electronics"
+    },
+    {
+      "id": "72",
+      "name": "Tony",
+      "price": "4088",
+      "category": "haha"
+    }
+  ]
+}
